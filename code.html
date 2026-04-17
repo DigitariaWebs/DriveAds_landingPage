@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>PUBleader | La Publicité Sans Freiner</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&amp;family=Manrope:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-container-low": "#f6f3f2",
+                    "tertiary-fixed-dim": "#c9c6c5",
+                    "surface-tint": "#4e5d8c",
+                    "on-secondary-fixed-variant": "#4f4800",
+                    "on-surface-variant": "#45464f",
+                    "on-secondary-container": "#6d6400",
+                    "on-error-container": "#93000a",
+                    "outline": "#757680",
+                    "on-surface": "#1c1b1b",
+                    "on-tertiary": "#ffffff",
+                    "on-primary-fixed": "#051845",
+                    "on-tertiary-fixed-variant": "#474646",
+                    "tertiary-container": "#2e2d2d",
+                    "surface-container": "#f0edec",
+                    "secondary-fixed-dim": "#dbc900",
+                    "tertiary": "#191919",
+                    "primary-fixed-dim": "#b6c5fb",
+                    "inverse-on-surface": "#f3f0ef",
+                    "error": "#ba1a1a",
+                    "surface-variant": "#e5e2e1",
+                    "primary-fixed": "#dbe1ff",
+                    "inverse-primary": "#b6c5fb",
+                    "on-error": "#ffffff",
+                    "surface-container-highest": "#e5e2e1",
+                    "surface-container-lowest": "#ffffff",
+                    "on-secondary": "#ffffff",
+                    "on-primary": "#ffffff",
+                    "primary-container": "#1b2b58",
+                    "background": "#fcf8f8",
+                    "surface": "#fcf8f8",
+                    "error-container": "#ffdad6",
+                    "on-secondary-fixed": "#1f1c00",
+                    "surface-container-high": "#ebe7e7",
+                    "surface-dim": "#dcd9d9",
+                    "on-tertiary-container": "#969494",
+                    "surface-bright": "#fcf8f8",
+                    "inverse-surface": "#313030",
+                    "on-primary-container": "#8493c7",
+                    "secondary-fixed": "#fae500",
+                    "on-tertiary-fixed": "#1c1b1b",
+                    "tertiary-fixed": "#e5e2e1",
+                    "on-background": "#1c1b1b",
+                    "on-primary-fixed-variant": "#364573",
+                    "secondary": "#695f00",
+                    "outline-variant": "#c5c6d0",
+                    "primary": "#031543",
+                    "secondary-container": "#f6e200"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "1.5rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Manrope"],
+                    "label": ["Manrope"]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .bg-hero-gradient {
+            background: linear-gradient(135deg, #1B2B58 0%, #031543 100%);
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface">
+<!-- TopAppBar Navigation Shell -->
+<header class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-xl shadow-sm dark:shadow-none">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="text-2xl font-extrabold tracking-tight text-[#1B2B58] dark:text-white font-headline">
+                PUBleader
+            </div>
+<nav class="hidden md:flex items-center space-x-8 font-label">
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#1B2B58] transition-colors duration-300" href="#solutions">Solutions</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#1B2B58] transition-colors duration-300" href="#timeline">Timeline</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#1B2B58] transition-colors duration-300" href="#app">App</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#1B2B58] transition-colors duration-300" href="#pricing">Pricing</a>
+</nav>
+<div class="flex items-center space-x-4">
+<button class="hidden md:block text-[#1B2B58] font-medium hover:text-yellow-500 transition-all">Se connecter</button>
+<button class="bg-secondary-fixed text-on-secondary-fixed px-6 py-2.5 rounded-full font-bold hover:scale-95 duration-150 active:opacity-80">Rejoindre</button>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-contain scale-125 translate-x-1/4 lg:translate-x-1/3" data-alt="A premium 3D render of a modern white luxury sedan car with professional advertising branding on the side. The car is shown from a dynamic front-three-quarter angle." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBA9oGgn8Mqnnujs9D26qGfPf7kYN97kvskippzeCSjYg_FyeFFVpbUH7pmcc7J0T-VWgE4BTi83GVEI7o7E4EaYOLA_G0WH7xSalAu5Rw2vNd4svatI249q_8mH8E_E-13HHv7lMces7kE6FQCyWekLK4FRQwo7axKavCCLX9xIK8fDcNyJK7fppjRWbBQdQx-ZATWYkrikyPe22SGW8c3yvkPl60At0lle5SjhP2dRNTjs1Styxn3gwndqASBnrqOxxjbk_fk1IE"/>
+<div class="absolute inset-0 bg-hero-gradient"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="text-white">
+<h1 class="text-5xl lg:text-7xl font-extrabold font-headline leading-tight tracking-tighter mb-6">
+                    LA PUBLICITÉ <br/><span class="text-secondary-fixed">SANS FREINER</span>
+</h1>
+<p class="text-xl text-primary-fixed mb-10 max-w-lg leading-relaxed">
+                    Transformez chaque kilomètre en opportunité. PUBleader connecte les marques aux flottes urbaines pour une visibilité inégalée.
+                </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-secondary-fixed text-on-secondary-fixed px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:bg-white transition-all">
+                        Demander un devis
+                    </button>
+<button class="bg-white/10 backdrop-blur-md border border-white/20 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white/20 transition-all">
+                        Voir nos solutions
+                    </button>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-surface-container-lowest/10 backdrop-blur-xl p-6 rounded-xl border border-white/10 mt-12">
+<span class="material-symbols-outlined text-secondary-fixed text-4xl mb-4" data-icon="visibility">visibility</span>
+<div class="text-3xl font-bold font-headline text-white">+2.4M</div>
+<div class="text-primary-fixed text-sm uppercase tracking-wider">Impressions / mois</div>
+</div>
+<div class="bg-surface-container-lowest/10 backdrop-blur-xl p-6 rounded-xl border border-white/10">
+<span class="material-symbols-outlined text-secondary-fixed text-4xl mb-4" data-icon="directions_car">directions_car</span>
+<div class="text-3xl font-bold font-headline text-white">500+</div>
+<div class="text-primary-fixed text-sm uppercase tracking-wider">Véhicules actifs</div>
+</div>
+<div class="bg-surface-container-lowest/10 backdrop-blur-xl p-6 rounded-xl border border-white/10 mt-[-24px]">
+<span class="material-symbols-outlined text-secondary-fixed text-4xl mb-4" data-icon="leaderboard">leaderboard</span>
+<div class="text-3xl font-bold font-headline text-white">100%</div>
+<div class="text-primary-fixed text-sm uppercase tracking-wider">Ciblage local</div>
+</div>
+<div class="bg-surface-container-lowest/10 backdrop-blur-xl p-6 rounded-xl border border-white/10 mt-[-48px]">
+<span class="material-symbols-outlined text-secondary-fixed text-4xl mb-4" data-icon="verified">verified</span>
+<div class="text-3xl font-bold font-headline text-white">ROI</div>
+<div class="text-primary-fixed text-sm uppercase tracking-wider">Optimisé</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Problem Section -->
+<section class="py-32 bg-surface">
+<div class="max-w-7xl mx-auto px-6">
+<div class="mb-20 text-center max-w-3xl mx-auto">
+<span class="text-secondary font-bold tracking-[0.2em] uppercase text-sm mb-4 block">Le constat</span>
+<h2 class="text-4xl lg:text-5xl font-extrabold font-headline text-primary mb-6">Pourquoi la publicité traditionnelle échoue ?</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Card 1 -->
+<div class="bg-surface-container-low p-10 rounded-xl hover:translate-y-[-8px] transition-all duration-300">
+<div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-sm">
+<img class="w-10 h-10 object-contain" data-alt="Minimalist abstract 3D icon representing rising costs and financial charts with blue and yellow accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_UxwXgHPQjH_Np_Hglnt8C-jJbKJog_hs5laCr3QUVFO_AsGGdimj_OSYlDDNvfB-54KZx17F1MYNvyCpV4CnbKSCVeYZ7o91JZevtu_K7mP3gmUfnieMb7P2NPujST-sy1CbD3UAfF4Skwy665M9nXj-mSpBhHVXA4eFtIx_el1_vLFfPBRFUUdnRzKqcq7M-vjU-4YVEZs6fy13dA1fjvxZJp4MkSF9QSAdUYUZiSqAw2UekntZwPGQHB_cCkETh4bXQTo6AG0"/>
+</div>
+<h3 class="text-xl font-bold font-headline text-primary mb-4">Coûts Exorbitants</h3>
+<p class="text-on-surface-variant leading-relaxed">Les campagnes TV et radio brûlent votre budget sans garantie de mémorisation.</p>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-low p-10 rounded-xl hover:translate-y-[-8px] transition-all duration-300">
+<div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-sm">
+<img class="w-10 h-10 object-contain" data-alt="Minimalist abstract 3D icon representing a static billboard or rigid structure with blue and yellow accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzD-JDpKayBv6rXDixZg8BHz7s2gCZR9KLjM6e5vTfes8cLGgHjkRFsn7sMLWs4BB2zR5Noi75NIWEgDqx0xQL5gg_DNkx8S_vlxQh-wLiv6zGLkPdFSre6ehejUoHG9Jz-y-YR9R__kE_2ibZ838K3Fztas3qgK26McbDPmXpJp61fJ4HCiDFkLuv2xg93OUdLbZgsgqUiQ36o8sXeIIg15hKDhlDR07ESlRRxnb6OxdxH57OmEF10wvCyC0Bnc4iAGphspDOHzQ"/>
+</div>
+<h3 class="text-xl font-bold font-headline text-primary mb-4">Affichage Statique</h3>
+<p class="text-on-surface-variant leading-relaxed">Un panneau fixe ne suit pas votre audience. Il reste immobile alors que le monde bouge.</p>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-low p-10 rounded-xl hover:translate-y-[-8px] transition-all duration-300">
+<div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-sm">
+<img class="w-10 h-10 object-contain" data-alt="Minimalist abstract 3D icon representing restricted vision or narrow focus with blue and yellow accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbm1cmYH2cR2dvJ76BnYlO3XxsVmFJDSjP7HeDQX1ZcirBcDdZkc64pQRyNKGIYeR9lVQ0NbkIq4p1Uo5J3QNJLBjCcdkhDqACLypXK63zMMMapNhnuAWOPNoMGmOArdCPQpLWslTLnFd7VvS8Fo3bj52vB6lZaqdIjIdhFSKT2zsCbhx5wPMnlXvqRqjxGr0gvMQvcWrSvt0DJEB0gsyId1j9ERbZ-0rEpPEaAaZHz088yFxMW7U-5aU31O-WI8NT7gghJULyzpw"/>
+</div>
+<h3 class="text-xl font-bold font-headline text-primary mb-4">Visibilité Limitée</h3>
+<p class="text-on-surface-variant leading-relaxed">Comment émerger dans une jungle urbaine saturée d'écrans immobiles ?</p>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-low p-10 rounded-xl hover:translate-y-[-8px] transition-all duration-300">
+<div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-sm">
+<img class="w-10 h-10 object-contain" data-alt="Minimalist abstract 3D icon representing a beacon or standing out from a crowd with blue and yellow accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxY99LSYFwhIwGnflOMY7NTRIv6DsQA8hM85FyhhIok0hAx-Yad5uVom2CkHr-CIzD7TqM0iUu4cXWronezW35nbJoTLTFqI39tJHUCwLHZAYb6JSy83ShtqNZtX3zNdqyWmD3vwRUiBmk4gwVXcyIibuiBtE6y7gcu8cl2O1POidAhGhudg14W8iZLtXfe3s_Vqd3BgPeRGOWyYNwtDZVWs3cDyRjw2Oea5yFnoj2WH6DCR-qCDET4Z55AyaPvgya8jE55v5tR6s"/>
+</div>
+<h3 class="text-xl font-bold font-headline text-primary mb-4">Bruit Local</h3>
+<p class="text-on-surface-variant leading-relaxed">Difficile de se démarquer face aux géants quand on est un acteur local.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Solution Section -->
+<section class="py-32 bg-surface-container" id="solutions">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div class="relative">
+<div class="absolute -top-10 -left-10 w-64 h-64 bg-secondary-fixed/20 rounded-full blur-3xl"></div>
+<div class="relative bg-white rounded-xl overflow-hidden shadow-2xl p-4">
+<img class="w-full h-[500px] object-cover rounded-lg" data-alt="Professional commercial photography of a modern branded vehicle for a driving school, sleek design with vibrant yellow and navy livery" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkXfhQVBubIiD3c1U-DLLds5PmMdnQsXfhn_dCKH6y_BI_D41b0QfzJK0QSnY_jAsFxVO7zljL6d08S3JuC3twV5-9wqNk0mIaZN75zk-tsvncJxICuna_NnYwhePdcwF3hxVaYyOygQghjUPieheXvv3JXneTMFWBREiXNejt44PAWz9XFFz6-mFdrnAjpv2NpOm7BU7HS5kxH-sAp-4QvlK4zu5KpsZXik412vI4LcbeAy8sLWgiwLfFtUKaiYCDWynrWiCKhCU"/>
+<div class="absolute bottom-10 right-[-20px] bg-primary p-6 rounded-xl shadow-xl max-w-[240px]">
+<p class="text-white font-bold mb-2">Partenaire Auto-école</p>
+<p class="text-primary-fixed text-sm">Flotte urbaine premium circulant 12h/jour en centre-ville.</p>
+</div>
+</div>
+</div>
+<div>
+<span class="text-secondary font-bold tracking-[0.2em] uppercase text-sm mb-4 block">Notre Solution</span>
+<h2 class="text-4xl lg:text-5xl font-extrabold font-headline text-primary mb-8 leading-tight">La ville devient votre terrain de jeu</h2>
+<p class="text-lg text-on-surface-variant mb-10 leading-relaxed">
+                        Nous collaborons avec des professionnels de la route (Auto-écoles, VTC, Livreurs) pour transformer leurs véhicules en supports publicitaires dynamiques.
+                    </p>
+<ul class="space-y-6">
+<li class="flex items-start space-x-4">
+<div class="flex-shrink-0 w-8 h-8 bg-secondary-container rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-secondary text-xl" data-icon="check">check</span>
+</div>
+<div>
+<h4 class="font-bold text-primary">Ciblage Géographique Précis</h4>
+<p class="text-on-surface-variant">Diffusez là où vos clients vivent et travaillent.</p>
+</div>
+</li>
+<li class="flex items-start space-x-4">
+<div class="flex-shrink-0 w-8 h-8 bg-secondary-container rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-secondary text-xl" data-icon="check">check</span>
+</div>
+<div>
+<h4 class="font-bold text-primary">Contrôle Total</h4>
+<p class="text-on-surface-variant">Choisissez vos créneaux et vos zones de diffusion via notre app.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- How it Works -->
+<section class="py-32 bg-surface" id="timeline">
+<div class="max-w-7xl mx-auto px-6">
+<h2 class="text-4xl lg:text-5xl font-extrabold font-headline text-primary text-center mb-24">Comment ça marche ?</h2>
+<div class="relative">
+<!-- Line -->
+<div class="hidden lg:block absolute top-1/2 left-0 w-full h-1 bg-surface-container-highest -translate-y-1/2 z-0"></div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 relative z-10">
+<div class="text-center group">
+<div class="w-20 h-20 bg-white rounded-full border-4 border-surface shadow-xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 bg-surface-container-lowest">
+<img class="w-10 h-10 object-contain" data-alt="Stylized 3D icon of a megaphone or broadcast symbol in navy and yellow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3c43jXsgNfNLt036w6SEn8uUTblx_iqp7xS6vKiwYWfOxCXDi4zVeg9V44jTB_WoJXBmLUJgprE0Sn3HCUaWtWrNZ5WzmUqXHZ8n2NFmeJcNKYGs1qeTDxKacky1lIPVzoofAwlRXbj_3LyPL3fFCNRihRPGGL8DAQqtWYLmzaKBjUTfGjFkaDo8fzfTLY3cwYnDCXP0EU_E_qjBoPTPU88KvZHcx-LK6UQf-atgqacpZ-rTSgVlyq3an2rj4dySQXX79KRwF1KM"/>
+</div>
+<h4 class="font-bold text-primary text-lg mb-2">Configurez</h4>
+<p class="text-on-surface-variant text-sm px-4">Définissez vos objectifs et votre zone de chalandise.</p>
+</div>
+<div class="text-center group">
+<div class="w-20 h-20 bg-white rounded-full border-4 border-surface shadow-xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 bg-surface-container-lowest">
+<img class="w-10 h-10 object-contain" data-alt="Stylized 3D icon of a graphic design palette or creative brush in navy and yellow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQZMnR5y-cVh6E9rWu8rf0UXOnH6-mVcjjeLhZ4PDOhQmtNrnehHuBqF52Y3umnlfcRP1L7EFfEc7UnlOYYanlLVa-vnowYWbTDMrKMWkDJGwIQo25TtSFd68IRICr9sH-GUtkjNkPl8Jtvawqb7UTVzf28GUwzd51O53EaAWvbfTB9fr7BRH9GZZJYT8ZQwEPedCSzhSoUYS5ebNwYN9X9jDSHLgEFT7H0xcqi1b9NdGdkWRKbm0SFFtNvsiONKwniZNETIzTrMc"/>
+</div>
+<h4 class="font-bold text-primary text-lg mb-2">Créez</h4>
+<p class="text-on-surface-variant text-sm px-4">Importez vos visuels ou utilisez nos services créatifs.</p>
+</div>
+<div class="text-center group">
+<div class="w-20 h-20 bg-white rounded-full border-4 border-surface shadow-xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 bg-surface-container-lowest">
+<img class="w-10 h-10 object-contain" data-alt="Stylized 3D icon of a car or vehicle movement in navy and yellow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHP7n5yiKDgIeD-dROi-PmMFKwFIhS22gc555lD2V345kqw0WMrb4iVhcat7W_hY_I7KD-YtmWin8q5z8NradCQJnnUUSQdQQfZtoaRKsa57hEm_KpN11zDtM1EXMJFdTRzRIZLwifbcxpVs6Wqhyq5RcRjdl3xH-pziN6rtgC0GswD2divscUyOEGbRHnBMdBAJHTYkEAx-qlXWO-GRdUyvMDu71M0YIagC7NGZr2SOpAZR0kq9apOQ1RGQxO75AqyW3vntRXACg"/>
+</div>
+<h4 class="font-bold text-primary text-lg mb-2">Lancez</h4>
+<p class="text-on-surface-variant text-sm px-4">Votre campagne part sur les routes en 48h chrono.</p>
+</div>
+<div class="text-center group">
+<div class="w-20 h-20 bg-white rounded-full border-4 border-surface shadow-xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 bg-surface-container-lowest">
+<img class="w-10 h-10 object-contain" data-alt="Stylized 3D icon of an analytics dashboard or growth chart in navy and yellow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkvsbm10zY2eCoIoA-CWy9X5T9nE4vO5TSsjnaNZDy5apr1HPbmeYfLqZipjFXohX1klOJZxhlLZKWr7AL3WuwvqrR7AqMwm_6ATIZVmgKCb2C3HeEZYsVeXW1rGPDpR8XAw_z6N9r3ajsPz_LHgCGK2rm54chNZRq_PfmjRyJXgx9JhBRiwbJfiFLpqxWaBqZEpdYuyXTADxa_qdUeZXSs5T8IhqHuXVbMJUEXnGfZl6tl01KLcaR0ClVny0-Eqh0W3vn5kLczxk"/>
+</div>
+<h4 class="font-bold text-primary text-lg mb-2">Analysez</h4>
+<p class="text-on-surface-variant text-sm px-4">Suivez vos performances en temps réel sur l'app.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- App Showcase -->
+<section class="py-32 bg-primary overflow-hidden" id="app">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div class="order-2 lg:order-1">
+<div class="relative flex justify-center space-x-[-100px]">
+<div class="relative z-20 translate-y-12">
+<div class="w-[280px] h-[580px] bg-surface shadow-2xl rounded-[3rem] border-[8px] border-slate-800 overflow-hidden">
+<div class="bg-surface-container px-6 py-10 h-full">
+<div class="text-primary font-bold text-xl mb-6">Tableau de bord</div>
+<div class="h-32 bg-white rounded-xl mb-4 p-4 shadow-sm border border-outline-variant/10">
+<div class="w-1/2 h-4 bg-surface-container-highest rounded mb-4"></div>
+<div class="w-full h-8 bg-secondary-container rounded"></div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="h-24 bg-white rounded-xl p-3 border border-outline-variant/10"></div>
+<div class="h-24 bg-white rounded-xl p-3 border border-outline-variant/10"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="relative z-10 scale-90 opacity-60 blur-[1px]">
+<div class="w-[280px] h-[580px] bg-surface shadow-2xl rounded-[3rem] border-[8px] border-slate-800 overflow-hidden">
+<div class="bg-surface-container px-6 py-10 h-full">
+<div class="text-primary font-bold text-xl mb-6">Mes campagnes</div>
+<div class="space-y-4">
+<div class="h-20 bg-white rounded-xl border border-outline-variant/10"></div>
+<div class="h-20 bg-white rounded-xl border border-outline-variant/10"></div>
+<div class="h-20 bg-white rounded-xl border border-outline-variant/10"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text-white order-1 lg:order-2">
+<h2 class="text-4xl lg:text-5xl font-extrabold font-headline mb-8">Votre régie <br/>dans la poche</h2>
+<p class="text-lg text-primary-fixed mb-10 leading-relaxed">
+                        L'application PUBleader vous donne un contrôle absolu sur votre image. Pilotez vos campagnes avec la simplicité d'un clic.
+                    </p>
+<div class="space-y-8">
+<div class="flex items-center space-x-6">
+<span class="material-symbols-outlined text-4xl text-secondary-fixed" data-icon="rocket_launch">rocket_launch</span>
+<span class="text-xl font-bold">Lancement instantané</span>
+</div>
+<div class="flex items-center space-x-6">
+<span class="material-symbols-outlined text-4xl text-secondary-fixed" data-icon="location_on">location_on</span>
+<span class="text-xl font-bold">Géo-tracking en direct</span>
+</div>
+<div class="flex items-center space-x-6">
+<span class="material-symbols-outlined text-4xl text-secondary-fixed" data-icon="query_stats">query_stats</span>
+<span class="text-xl font-bold">Statistiques détaillées</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Pricing Section -->
+<section class="py-32 bg-surface" id="pricing">
+<div class="max-w-7xl mx-auto px-6 text-center">
+<h2 class="text-4xl lg:text-5xl font-extrabold font-headline text-primary mb-24">Tarifs en toute transparence</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Plan 1 -->
+<div class="bg-white p-10 rounded-xl shadow-sm border border-outline-variant/20 flex flex-col items-start text-left">
+<div class="text-secondary font-bold uppercase tracking-wider text-sm mb-4">Boost</div>
+<div class="flex items-baseline mb-8">
+<span class="text-4xl font-extrabold text-primary">299€</span>
+<span class="text-on-surface-variant ml-2">/mois</span>
+</div>
+<ul class="space-y-4 mb-10 flex-grow">
+<li class="flex items-center space-x-3 text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary" data-icon="done">done</span>
+<span>5 véhicules actifs</span>
+</li>
+<li class="flex items-center space-x-3 text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary" data-icon="done">done</span>
+<span>Secteur local (10km)</span>
+</li>
+<li class="flex items-center space-x-3 text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary" data-icon="done">done</span>
+<span>Rapport mensuel</span>
+</li>
+</ul>
+<button class="w-full py-4 bg-primary text-white rounded-full font-bold hover:bg-secondary-fixed hover:text-on-secondary-fixed transition-colors">Choisir ce plan</button>
+</div>
+<!-- Plan 2 (Featured) -->
+<div class="bg-primary p-10 rounded-xl shadow-2xl flex flex-col items-start text-left relative overflow-hidden transform scale-105 z-10">
+<div class="absolute top-0 right-0 bg-secondary-fixed text-on-secondary-fixed px-6 py-2 rounded-bl-xl font-bold text-sm uppercase">Populaire</div>
+<div class="text-secondary-fixed font-bold uppercase tracking-wider text-sm mb-4">Growth</div>
+<div class="flex items-baseline mb-8">
+<span class="text-4xl font-extrabold text-white">599€</span>
+<span class="text-primary-fixed ml-2">/mois</span>
+</div>
+<ul class="space-y-4 mb-10 flex-grow">
+<li class="flex items-center space-x-3 text-white">
+<span class="material-symbols-outlined text-secondary-fixed" data-icon="done">done</span>
+<span>15 véhicules actifs</span>
+</li>
+<li class="flex items-center space-x-3 text-white">
+<span class="material-symbols-outlined text-secondary-fixed" data-icon="done">done</span>
+<span>Secteur régional</span>
+</li>
+<li class="flex items-center space-x-3 text-white">
+<span class="material-symbols-outlined text-secondary-fixed" data-icon="done">done</span>
+<span>App monitoring 24/7</span>
+</li>
+<li class="flex items-center space-x-3 text-white">
+<span class="material-symbols-outlined text-secondary-fixed" data-icon="done">done</span>
+<span>Modifications illimitées</span>
+</li>
+</ul>
+<button class="w-full py-4 bg-secondary-fixed text-on-secondary-fixed rounded-full font-bold hover:bg-white transition-colors">Choisir ce plan</button>
+</div>
+<!-- Plan 3 -->
+<div class="bg-white p-10 rounded-xl shadow-sm border border-outline-variant/20 flex flex-col items-start text-left">
+<div class="text-secondary font-bold uppercase tracking-wider text-sm mb-4">Leader</div>
+<div class="flex items-baseline mb-8">
+<span class="text-4xl font-extrabold text-primary">999€</span>
+<span class="text-on-surface-variant ml-2">/mois</span>
+</div>
+<ul class="space-y-4 mb-10 flex-grow">
+<li class="flex items-center space-x-3 text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary" data-icon="done">done</span>
+<span>50+ véhicules actifs</span>
+</li>
+<li class="flex items-center space-x-3 text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary" data-icon="done">done</span>
+<span>Couverture Nationale</span>
+</li>
+<li class="flex items-center space-x-3 text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary" data-icon="done">done</span>
+<span>Manager de compte dédié</span>
+</li>
+<li class="flex items-center space-x-3 text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary" data-icon="done">done</span>
+<span>Priorité Creative Lab</span>
+</li>
+</ul>
+<button class="w-full py-4 bg-primary text-white rounded-full font-bold hover:bg-secondary-fixed hover:text-on-secondary-fixed transition-colors">Choisir ce plan</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Leader Borne Section -->
+<section class="py-32 bg-surface-container-low overflow-hidden">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div>
+<h2 class="text-4xl lg:text-5xl font-extrabold font-headline text-primary mb-8">Leader Borne : <br/><span class="text-secondary">L'Innovation</span></h2>
+<p class="text-lg text-on-surface-variant mb-10 leading-relaxed">
+                        Découvrez notre borne publicitaire interactive de nouvelle génération. Alliant luxe et technologie, elle redéfinit l'expérience de marque dans les lieux de prestige.
+                    </p>
+<div class="grid grid-cols-2 gap-8 mb-10">
+<div>
+<span class="material-symbols-outlined text-primary text-3xl mb-2" data-icon="lightbulb">lightbulb</span>
+<h5 class="font-bold text-primary">LED Advertising</h5>
+<p class="text-sm text-on-surface-variant">Haute luminosité pour un impact maximal de jour comme de nuit.</p>
+</div>
+<div>
+<span class="material-symbols-outlined text-primary text-3xl mb-2" data-icon="fragrance">fragrance</span>
+<h5 class="font-bold text-primary">Lux Perfume Diffuser</h5>
+<p class="text-sm text-on-surface-variant">Expérience multisensorielle avec diffusion de parfums haut de gamme.</p>
+</div>
+</div>
+</div>
+<div class="relative">
+<div class="bg-primary p-1 rounded-2xl shadow-3xl">
+<img class="w-full h-[600px] object-cover rounded-xl" data-alt="High-end sleek digital kiosk in a luxury hotel lobby, featuring a large vertical LED screen displaying a perfume advertisement" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0AaKxlRCWe_3ycCBlsIBWB9W6I9z6Z9ns7d4hZ60-4YKLDLr0zD29yg5v8Yd9s9FZitgoe3yCnpUsKu2nLpZx-CLXPuuLMpgkWfB_XMfGgkWKiA1Ax6bP6B9nyvgohG7EV3rV5hCUMUH59JArgt0bLUTOLGSso6OcPYTfPJbsFSu5ioyTixquy8aVGkZbWOw20jb0lcGa7kMyvykuzWHfAvLC0Sd8q1ylD9TCybsc6_xYf3RC3jTM2u8zTNFYJNeP-nGUOkBCiUY"/>
+</div>
+<div class="absolute -bottom-6 -right-6 bg-secondary-fixed p-8 rounded-xl shadow-xl hidden lg:block">
+<div class="text-4xl font-black text-primary">New</div>
+<div class="text-primary font-bold">Innovation 2024</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="py-24 bg-surface text-center">
+<div class="max-w-4xl mx-auto px-6 bg-primary rounded-xl py-20 relative overflow-hidden">
+<div class="absolute inset-0 opacity-10">
+<img class="w-full h-full object-cover" data-alt="Abstract dynamic light trails of city traffic at night creating a sense of speed and movement" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFjoD1b2QaGGl9ZqfTZQeL7evok__ygcx-qIDngdWO7Ss4ZKe9hTcVWDWtSsdwP9I4mHXs0HC5iQK0r9Lc4o4IHH2oPfPsaiFS8d5DEpl3vwwtYrptkork3IurHMrvhVvwM2ggtvi2Ffr027o7Um6MJpcjb0a-bCc-FR0ANmr363X8ZPqLtJcPvtLByASa5TpShwb2cWs0W-7_X_dXka1zkT8-7vqi1FSgzA_03vUk7CGuasy2aVMSByL1RENTDlgrxZVzA9upbjE"/>
+</div>
+<div class="relative z-10">
+<h2 class="text-4xl lg:text-5xl font-extrabold font-headline text-white mb-10 leading-tight">Prêt à devenir un <br/><span class="text-secondary-fixed">PUBleader ?</span></h2>
+<button class="bg-secondary-fixed text-on-secondary-fixed px-12 py-5 rounded-full font-extrabold text-xl hover:scale-105 transition-transform duration-300 shadow-2xl">
+                    Lancer ma campagne
+                </button>
+<p class="mt-8 text-primary-fixed-dim text-sm font-medium tracking-wide">Plus de 120 marques nous font déjà confiance.</p>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-6 py-20">
+<div class="flex flex-col md:flex-row justify-between mb-16 space-y-12 md:space-y-0">
+<div class="max-w-xs">
+<div class="text-2xl font-bold text-[#1B2B58] dark:text-white font-headline mb-6">PUBleader</div>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-8">
+                        La première régie publicitaire dynamique sur véhicules motorisés. Innovons ensemble pour la ville de demain.
+                    </p>
+<div class="flex space-x-4">
+<a class="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm hover:text-secondary transition-colors" href="#">
+<span class="material-symbols-outlined text-lg" data-icon="public">public</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm hover:text-secondary transition-colors" href="#">
+<span class="material-symbols-outlined text-lg" data-icon="chat">chat</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm hover:text-secondary transition-colors" href="#">
+<span class="material-symbols-outlined text-lg" data-icon="campaign">campaign</span>
+</a>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-12 md:gap-24">
+<div>
+<h4 class="font-bold text-primary mb-6">Liens Utiles</h4>
+<ul class="space-y-4">
+<li><a class="text-slate-500 hover:text-[#1B2B58] transition-all text-sm" href="#">Politique de confidentialité</a></li>
+<li><a class="text-slate-500 hover:text-[#1B2B58] transition-all text-sm" href="#">Conditions générales</a></li>
+<li><a class="text-slate-500 hover:text-[#1B2B58] transition-all text-sm" href="#">Contact</a></li>
+<li><a class="text-slate-500 hover:text-[#1B2B58] transition-all text-sm" href="#">Recrutement</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-primary mb-6">Contact</h4>
+<p class="text-slate-500 text-sm mb-4 leading-relaxed">
+                            123 Avenue des Champs-Élysées<br/>
+                            75008 Paris, France
+                        </p>
+<p class="text-slate-500 text-sm">hello@publeader.fr</p>
+<p class="text-slate-500 text-sm">+33 1 23 45 67 89</p>
+</div>
+</div>
+</div>
+<div class="pt-8 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center text-slate-500 text-sm">
+<p>© 2024 PUBleader. Urban Architect Design.</p>
+<div class="flex space-x-8 mt-4 md:mt-0">
+<a class="hover:text-primary transition-colors" href="#">LinkedIn</a>
+<a class="hover:text-primary transition-colors" href="#">Instagram</a>
+<a class="hover:text-primary transition-colors" href="#">X / Twitter</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
