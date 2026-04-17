@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden">
+    <section className="relative min-h-screen flex items-end pt-24 pb-10 sm:pb-14 lg:pb-16 overflow-hidden">
       <div className="absolute inset-0 z-0 bg-primary">
         <Image
           src="/l.png"
@@ -18,11 +18,11 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-7xl w-full mx-auto px-4 sm:px-6">
         <div className="text-white max-w-2xl [text-shadow:0_2px_16px_rgb(3_21_67/80%)]">
-          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold font-headline leading-tight tracking-tighter mb-6">
-            LA PUBLICITÉ <br />
-            <span className="text-secondary-fixed">SANS FREINER</span>
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-hero font-black leading-[1.05] tracking-tight mb-4 sm:mb-5">
+            La publicité <br />
+            <span className="italic font-extrabold text-secondary-fixed">sans freiner.</span>
           </h1>
-          <p className="text-lg sm:text-xl text-primary-fixed mb-8 sm:mb-10 max-w-lg leading-relaxed">
+          <p className="text-sm sm:text-base text-primary-fixed mb-6 sm:mb-8 max-w-xl leading-relaxed font-hero-body font-light tracking-wide">
             Transformez chaque kilomètre en opportunité. PUBleader connecte les
             marques aux flottes urbaines pour une visibilité inégalée.
           </p>

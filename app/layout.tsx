@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans, Manrope } from "next/font/google";
+import { Plus_Jakarta_Sans, Manrope, Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -16,6 +16,19 @@ const body = Manrope({
   weight: ["400", "500", "600"],
 });
 
+const hero = Playfair_Display({
+  variable: "--font-hero",
+  subsets: ["latin"],
+  weight: ["700", "800", "900"],
+  style: ["normal", "italic"],
+});
+
+const heroBody = Inter({
+  variable: "--font-hero-body",
+  subsets: ["latin"],
+  weight: ["300", "400", "500"],
+});
+
 export const metadata: Metadata = {
   title: "PUBleader | La Publicité Sans Freiner",
   description:
@@ -28,7 +41,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" className={`${headline.variable} ${body.variable}`}>
+    <html lang="fr" className={`${headline.variable} ${body.variable} ${hero.variable} ${heroBody.variable}`}>
       <head>
         <link
           rel="stylesheet"

@@ -4,6 +4,8 @@
   --font-headline: var(--font-headline-raw);
   --font-body: var(--font-body-raw);
   --font-label: var(--font-body-raw);
+  --font-hero: var(--font-hero);
+  --font-hero-body: var(--font-hero-body);
 
   --color-primary: #031543;
   --color-primary-container: #1b2b58;

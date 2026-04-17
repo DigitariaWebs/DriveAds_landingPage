@@ -33,7 +33,7 @@ export default function Header() {
           {navLinks.map((link) => (
             <a
               key={link.href}
-              className="text-slate-600 hover:text-[#1B2B58] transition-colors duration-300"
+              className="text-slate-700 font-bold hover:text-[#1B2B58] transition-colors duration-300"
               href={link.href}
             >
               {link.label}
@@ -42,12 +42,18 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center space-x-2 sm:space-x-4">
-          <button className="hidden md:block text-[#1B2B58] font-medium hover:text-yellow-500 transition-all">
+          <a
+            href="#pricing"
+            className="hidden md:block text-[#1B2B58] font-bold hover:text-yellow-500 transition-all"
+          >
             Se connecter
-          </button>
-          <button className="bg-secondary-fixed text-on-secondary-fixed px-4 sm:px-6 py-2 sm:py-2.5 rounded-full text-sm sm:text-base font-bold hover:scale-95 duration-150 active:opacity-80">
+          </a>
+          <a
+            href="#pricing"
+            className="bg-secondary-fixed text-on-secondary-fixed px-4 sm:px-6 py-2 sm:py-2.5 rounded-full text-sm sm:text-base font-extrabold hover:scale-95 duration-150 active:opacity-80"
+          >
             Rejoindre
-          </button>
+          </a>
           <button
             aria-label="Menu"
             aria-expanded={open}
@@ -69,16 +75,20 @@ export default function Header() {
                 <a
                   href={link.href}
                   onClick={() => setOpen(false)}
-                  className="block py-3 px-2 text-slate-600 hover:text-[#1B2B58] hover:bg-slate-50 rounded font-label"
+                  className="block py-3 px-2 text-slate-700 font-bold hover:text-[#1B2B58] hover:bg-slate-50 rounded font-label"
                 >
                   {link.label}
                 </a>
               </li>
             ))}
             <li>
-              <button className="w-full text-left py-3 px-2 text-[#1B2B58] font-medium">
+              <a
+                href="#pricing"
+                onClick={() => setOpen(false)}
+                className="block py-3 px-2 text-[#1B2B58] font-bold"
+              >
                 Se connecter
-              </button>
+              </a>
             </li>
           </ul>
         </nav>

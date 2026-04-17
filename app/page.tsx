@@ -1,5 +1,4 @@
 import Hero from "./components/Hero";
-import HeroStats from "./components/HeroStats";
 import Problem from "./components/Problem";
 import Solution from "./components/Solution";
 import HowItWorks from "./components/HowItWorks";
@@ -12,7 +11,6 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <HeroStats />
       <Problem />
       <Solution />
       <HowItWorks />
