@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-end pt-24 pb-10 sm:pb-14 lg:pb-16 overflow-hidden">
       <div className="absolute inset-0 z-0 bg-primary">
         <Image
-          src="/l.png"
+          src="/edited.png"
           alt="Véhicule de flotte urbaine premium avec branding publicitaire"
           fill
           priority
