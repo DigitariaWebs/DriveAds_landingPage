@@ -20,13 +20,13 @@ export default function Hero() {
       {/* Desktop/tablet: image full-bleed background */}
       <div className="hidden md:block absolute inset-0 z-0 overflow-hidden">
         <Image
-          src="/hero.png"
+          src="/a.png"
           alt="Véhicule de flotte urbaine premium avec branding publicitaire"
           fill
           priority
           quality={100}
           sizes="100vw"
-          className="object-cover object-[right_center] scale-[1.15] origin-[right_top]"
+          className="object-cover object-right"
         />
         <div className="absolute inset-0 bg-linear-to-r from-primary/60 via-primary/20 to-transparent"></div>
       </div>
