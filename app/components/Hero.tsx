@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Mobile: image stacked above */}
       <div className="relative md:hidden w-full aspect-[4/3] mb-8">
         <Image
-          src="/edited.png"
+          src="/luxury-hero.png"
           alt="Véhicule de flotte urbaine premium avec branding publicitaire"
           fill
           priority
@@ -20,7 +20,7 @@ export default function Hero() {
       {/* Desktop/tablet: image full-bleed background */}
       <div className="hidden md:block absolute inset-0 z-0">
         <Image
-          src="/edited.png"
+          src="/luxury-hero.png"
           alt="Véhicule de flotte urbaine premium avec branding publicitaire"
           fill
           priority

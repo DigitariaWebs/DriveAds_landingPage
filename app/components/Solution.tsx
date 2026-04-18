@@ -16,8 +16,8 @@ export default function Solution() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 className="w-full h-80 sm:h-125 object-cover rounded-lg"
-                alt="Berline premium roulant en ville, illustration de la ville comme terrain de jeu publicitaire"
-                src="/solution.jpg"
+                alt="Véhicules urbains utilitaires noir et blanc avec branding en circulation"
+                src="/urban-vehicle.png"
               />
               <div className="absolute bottom-4 right-4 sm:bottom-10 sm:-right-5 bg-primary p-4 sm:p-6 rounded-xl shadow-xl max-w-50 sm:max-w-60 overflow-hidden">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
