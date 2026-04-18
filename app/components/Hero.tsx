@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Mobile: image stacked above */}
       <div className="relative md:hidden w-full aspect-[4/3] mb-8">
         <Image
-          src="/luxury-hero.png"
+          src="/hero.png"
           alt="Véhicule de flotte urbaine premium avec branding publicitaire"
           fill
           priority
@@ -18,15 +18,15 @@ export default function Hero() {
       </div>
 
       {/* Desktop/tablet: image full-bleed background */}
-      <div className="hidden md:block absolute inset-0 z-0">
+      <div className="hidden md:block absolute inset-0 z-0 overflow-hidden">
         <Image
-          src="/luxury-hero.png"
+          src="/hero.png"
           alt="Véhicule de flotte urbaine premium avec branding publicitaire"
           fill
           priority
           quality={100}
           sizes="100vw"
-          className="object-cover object-right"
+          className="object-cover object-[right_center] scale-[1.15] origin-[right_top]"
         />
         <div className="absolute inset-0 bg-linear-to-r from-primary/60 via-primary/20 to-transparent"></div>
       </div>
@@ -43,12 +43,18 @@ export default function Hero() {
               marques aux flottes urbaines pour une visibilité inégalée.
             </p>
             <div className="flex flex-wrap gap-3 sm:gap-4">
-              <button className="bg-secondary-fixed text-on-secondary-fixed px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold text-base sm:text-lg shadow-lg hover:bg-white transition-all">
+              <a
+                href="#pricing"
+                className="inline-block bg-secondary-fixed text-on-secondary-fixed px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold text-base sm:text-lg shadow-lg hover:bg-white transition-all"
+              >
                 Demander un devis
-              </button>
-              <button className="bg-white/10 backdrop-blur-md border border-white/20 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold text-base sm:text-lg hover:bg-white/20 transition-all">
+              </a>
+              <a
+                href="#solutions"
+                className="inline-block bg-white/10 backdrop-blur-md border border-white/20 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold text-base sm:text-lg hover:bg-white/20 transition-all"
+              >
                 Voir nos solutions
-              </button>
+              </a>
             </div>
           </div>
         </div>

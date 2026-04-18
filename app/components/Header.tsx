@@ -34,7 +34,7 @@ export default function Header() {
           {navLinks.map((link) => (
             <a
               key={link.href}
-              className="text-slate-700 font-bold hover:text-[#1B2B58] transition-colors duration-300"
+              className="text-slate-800 font-extrabold hover:text-[#1B2B58] transition-colors duration-300"
               href={link.href}
             >
               {link.label}
@@ -45,7 +45,7 @@ export default function Header() {
         <div className="flex items-center space-x-2 sm:space-x-4">
           <a
             href="#pricing"
-            className="hidden md:block text-[#1B2B58] font-bold hover:text-yellow-500 transition-all"
+            className="hidden md:block text-[#1B2B58] font-extrabold hover:text-yellow-500 transition-all"
           >
             Se connecter
           </a>
@@ -76,7 +76,7 @@ export default function Header() {
                 <a
                   href={link.href}
                   onClick={() => setOpen(false)}
-                  className="block py-3 px-2 text-slate-700 font-bold hover:text-[#1B2B58] hover:bg-slate-50 rounded font-label"
+                  className="block py-3 px-2 text-slate-800 font-extrabold hover:text-[#1B2B58] hover:bg-slate-50 rounded font-label"
                 >
                   {link.label}
                 </a>
@@ -86,7 +86,7 @@ export default function Header() {
               <a
                 href="#pricing"
                 onClick={() => setOpen(false)}
-                className="block py-3 px-2 text-[#1B2B58] font-bold"
+                className="block py-3 px-2 text-[#1B2B58] font-extrabold"
               >
                 Se connecter
               </a>
