@@ -25,12 +25,14 @@ export default function FinalCTA() {
           className="pointer-events-none select-none absolute -bottom-12 -right-12 w-56 opacity-10 rotate-12"
         />
         <div className="relative z-10">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="/logo-v2.png"
-            alt="PUBleader"
-            className="mx-auto w-16 h-16 mb-6 drop-shadow-[0_6px_20px_rgba(250,229,0,0.35)]"
-          />
+          <div className="mx-auto relative w-28 h-24 mb-6 overflow-hidden drop-shadow-[0_6px_20px_rgba(250,229,0,0.35)]">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/logo-v2.png"
+              alt="PUBleader"
+              className="absolute inset-0 w-full h-full object-cover object-center scale-[1.4]"
+            />
+          </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-headline text-white mb-8 sm:mb-10 leading-tight">
             Prêt à devenir un <br />
             <span className="text-secondary-fixed">PUBleader ?</span>
