@@ -4,12 +4,12 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-14 sm:py-20">
         <div className="flex flex-col md:flex-row justify-between mb-12 sm:mb-16 gap-12 md:gap-8">
           <div className="max-w-xs">
-            <div className="mb-6">
+            <div className="mb-6 relative h-24 w-28 overflow-hidden">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/logo.png"
+                src="/logo-v2.png"
                 alt="PUBleader"
-                className="h-14 w-auto"
+                className="absolute inset-0 w-full h-full object-cover object-center scale-[1.4]"
               />
             </div>
             <p className="text-slate-500 text-sm leading-relaxed mb-8">

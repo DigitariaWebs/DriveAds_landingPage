@@ -40,7 +40,7 @@ function PlanCard({ plan }: { plan: Plan }) {
       <div className="bg-primary p-8 sm:p-10 rounded-xl shadow-2xl flex flex-col items-start text-left relative overflow-hidden md:scale-105 z-10">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/logo.png"
+          src="/logo-v2.png"
           alt=""
           aria-hidden="true"
           className="pointer-events-none select-none absolute -left-8 -bottom-8 w-40 opacity-[0.08] rotate-12"
@@ -110,7 +110,7 @@ export default function Pricing() {
     <section className="relative py-20 sm:py-32 bg-surface overflow-hidden" id="pricing">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/logo.png"
+        src="/logo-v2.png"
         alt=""
         aria-hidden="true"
         className="pointer-events-none select-none absolute top-1/3 -left-20 w-72 opacity-[0.04] -rotate-6"

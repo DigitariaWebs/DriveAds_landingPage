@@ -15,18 +15,19 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-xl shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-24 sm:h-28 flex items-center justify-between">
         <a href="#" aria-label="PUBleader" className="flex items-center">
-          <Image
-            src="/logo.png"
-            alt="PUBleader"
-            width={96}
-            height={96}
-            priority
-            quality={100}
-            sizes="(max-width: 640px) 40px, 48px"
-            className="h-10 sm:h-12 w-auto"
-          />
+          <div className="relative h-16 w-20 sm:h-20 sm:w-24 overflow-hidden">
+            <Image
+              src="/logo-v2.png"
+              alt="PUBleader"
+              fill
+              priority
+              quality={100}
+              sizes="(max-width: 640px) 80px, 96px"
+              className="object-cover object-center scale-[1.4]"
+            />
+          </div>
         </a>
 
         <nav className="hidden md:flex items-center space-x-8 font-label">

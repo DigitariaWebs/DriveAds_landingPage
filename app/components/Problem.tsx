@@ -37,14 +37,14 @@ export default function Problem() {
     <section className="relative py-20 sm:py-32 bg-surface overflow-hidden">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/logo.png"
+        src="/logo-v2.png"
         alt=""
         aria-hidden="true"
         className="pointer-events-none select-none absolute -top-20 -left-20 w-80 opacity-[0.04] -rotate-12"
       />
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/logo.png"
+        src="/logo-v2.png"
         alt=""
         aria-hidden="true"
         className="pointer-events-none select-none absolute -bottom-24 -right-16 w-72 opacity-[0.05] rotate-12"

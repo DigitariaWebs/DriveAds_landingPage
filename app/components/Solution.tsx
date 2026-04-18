@@ -3,7 +3,7 @@ export default function Solution() {
     <section className="relative py-20 sm:py-32 bg-surface-container overflow-hidden" id="solutions">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/logo.png"
+        src="/logo-v2.png"
         alt=""
         aria-hidden="true"
         className="pointer-events-none select-none absolute top-10 right-[-4rem] w-72 opacity-[0.05] rotate-6"
@@ -16,13 +16,13 @@ export default function Solution() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 className="w-full h-80 sm:h-125 object-cover rounded-lg"
-                alt="Photographie commerciale professionnelle d'un véhicule pour auto-école, design sleek avec livrée jaune et bleu nuit"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkXfhQVBubIiD3c1U-DLLds5PmMdnQsXfhn_dCKH6y_BI_D41b0QfzJK0QSnY_jAsFxVO7zljL6d08S3JuC3twV5-9wqNk0mIaZN75zk-tsvncJxICuna_NnYwhePdcwF3hxVaYyOygQghjUPieheXvv3JXneTMFWBREiXNejt44PAWz9XFFz6-mFdrnAjpv2NpOm7BU7HS5kxH-sAp-4QvlK4zu5KpsZXik412vI4LcbeAy8sLWgiwLfFtUKaiYCDWynrWiCKhCU"
+                alt="Berline premium roulant en ville, illustration de la ville comme terrain de jeu publicitaire"
+                src="/solution.jpg"
               />
               <div className="absolute bottom-4 right-4 sm:bottom-10 sm:-right-5 bg-primary p-4 sm:p-6 rounded-xl shadow-xl max-w-50 sm:max-w-60 overflow-hidden">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/logo.png"
+                  src="/logo-v2.png"
                   alt=""
                   aria-hidden="true"
                   className="pointer-events-none select-none absolute -right-3 -bottom-3 w-16 opacity-15"

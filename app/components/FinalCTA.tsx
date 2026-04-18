@@ -12,14 +12,14 @@ export default function FinalCTA() {
         </div>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/logo.png"
+          src="/logo-v2.png"
           alt=""
           aria-hidden="true"
           className="pointer-events-none select-none absolute -top-10 -left-10 w-48 opacity-10 -rotate-12"
         />
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/logo.png"
+          src="/logo-v2.png"
           alt=""
           aria-hidden="true"
           className="pointer-events-none select-none absolute -bottom-12 -right-12 w-56 opacity-10 rotate-12"
@@ -27,7 +27,7 @@ export default function FinalCTA() {
         <div className="relative z-10">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/logo.png"
+            src="/logo-v2.png"
             alt="PUBleader"
             className="mx-auto w-16 h-16 mb-6 drop-shadow-[0_6px_20px_rgba(250,229,0,0.35)]"
           />
