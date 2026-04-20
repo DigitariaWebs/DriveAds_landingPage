@@ -9,9 +9,9 @@ export default function LeaderBorne() {
               <span className="text-secondary">L&apos;Innovation</span>
             </h2>
             <p className="text-base sm:text-lg text-on-surface-variant mb-8 sm:mb-10 leading-relaxed">
-              Découvrez notre borne publicitaire interactive de nouvelle
-              génération. Alliant luxe et technologie, elle redéfinit
-              l&apos;expérience de marque dans les lieux de prestige.
+              En complément de la flotte de chauffeurs, la Leader Borne prend
+              le relais aux points chauds : gares, terminaux, aires de
+              stationnement VTC. Même écosystème, pilotée depuis la même app.
             </p>
             <div className="grid grid-cols-2 gap-8 mb-10">
               <div>
@@ -25,12 +25,12 @@ export default function LeaderBorne() {
               </div>
               <div>
                 <span className="material-symbols-outlined text-primary text-3xl mb-2">
-                  fragrance
+                  sync
                 </span>
-                <h5 className="font-bold text-primary">Lux Perfume Diffuser</h5>
+                <h5 className="font-bold text-primary">Synchro App</h5>
                 <p className="text-sm text-on-surface-variant">
-                  Expérience multisensorielle avec diffusion de parfums haut de
-                  gamme.
+                  Mêmes campagnes, mêmes stats : la borne suit le flux de
+                  l&apos;application.
                 </p>
               </div>
             </div>
@@ -40,7 +40,7 @@ export default function LeaderBorne() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 className="w-full h-96 sm:h-150 object-cover rounded-xl"
-                alt="Borne digitale haut de gamme dans un hall d'hôtel de luxe, avec grand écran LED vertical diffusant une publicité de parfum"
+                alt="Borne digitale PUBleader avec grand écran LED vertical diffusant une campagne"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0AaKxlRCWe_3ycCBlsIBWB9W6I9z6Z9ns7d4hZ60-4YKLDLr0zD29yg5v8Yd9s9FZitgoe3yCnpUsKu2nLpZx-CLXPuuLMpgkWfB_XMfGgkWKiA1Ax6bP6B9nyvgohG7EV3rV5hCUMUH59JArgt0bLUTOLGSso6OcPYTfPJbsFSu5ioyTixquy8aVGkZbWOw20jb0lcGa7kMyvykuzWHfAvLC0Sd8q1ylD9TCybsc6_xYf3RC3jTM2u8zTNFYJNeP-nGUOkBCiUY"
               />
             </div>

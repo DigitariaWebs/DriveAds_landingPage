@@ -5,6 +5,7 @@ import HowItWorks from "./components/HowItWorks";
 import AppShowcase from "./components/AppShowcase";
 import Pricing from "./components/Pricing";
 import LeaderBorne from "./components/LeaderBorne";
+import SocialProof from "./components/SocialProof";
 import FinalCTA from "./components/FinalCTA";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <AppShowcase />
       <Pricing />
       <LeaderBorne />
+      <SocialProof />
       <FinalCTA />
     </>
   );

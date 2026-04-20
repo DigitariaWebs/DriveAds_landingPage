@@ -15,14 +15,14 @@
   --color-on-primary-fixed-variant: #364573;
   --color-inverse-primary: #b6c5fb;
 
-  --color-secondary: #695f00;
-  --color-secondary-container: #f6e200;
-  --color-secondary-fixed: #fae500;
-  --color-secondary-fixed-dim: #dbc900;
+  --color-secondary: #4e5d8c;
+  --color-secondary-container: #dbe1ff;
+  --color-secondary-fixed: #b6c5fb;
+  --color-secondary-fixed-dim: #8493c7;
   --color-on-secondary: #ffffff;
-  --color-on-secondary-container: #6d6400;
-  --color-on-secondary-fixed: #1f1c00;
-  --color-on-secondary-fixed-variant: #4f4800;
+  --color-on-secondary-container: #051845;
+  --color-on-secondary-fixed: #031543;
+  --color-on-secondary-fixed-variant: #1b2b58;
 
   --color-tertiary: #191919;
   --color-tertiary-container: #2e2d2d;
@@ -104,5 +104,33 @@ body {
 
 .bg-hero-gradient {
   background: linear-gradient(135deg, #1b2b58 0%, #031543 100%);
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0) rotate(var(--tw-rotate, 0deg)); }
+  50% { transform: translateY(-12px) rotate(var(--tw-rotate, 0deg)); }
+}
+
+.animate-float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}
+
+.animate-float-delay-1 {
+  animation: float-slow 6s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+.animate-float-delay-2 {
+  animation: float-slow 6s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.8s ease-out both;
 }
 

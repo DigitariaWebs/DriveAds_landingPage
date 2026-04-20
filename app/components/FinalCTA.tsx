@@ -25,7 +25,7 @@ export default function FinalCTA() {
           className="pointer-events-none select-none absolute -bottom-12 -right-12 w-56 opacity-10 rotate-12"
         />
         <div className="relative z-10">
-          <div className="mx-auto relative w-28 h-24 mb-6 overflow-hidden drop-shadow-[0_6px_20px_rgba(250,229,0,0.35)]">
+          <div className="mx-auto relative w-28 h-24 mb-6 overflow-hidden drop-shadow-[0_6px_20px_rgba(182,197,251,0.45)]">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/logo-v2.png"

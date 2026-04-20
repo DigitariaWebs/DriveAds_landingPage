@@ -45,7 +45,7 @@ export default function Header() {
         <div className="flex items-center space-x-2 sm:space-x-4">
           <a
             href="#pricing"
-            className="hidden md:block text-[#1B2B58] font-extrabold hover:text-yellow-500 transition-all"
+            className="hidden md:block text-[#1B2B58] font-extrabold hover:text-primary-container transition-all"
           >
             Se connecter
           </a>

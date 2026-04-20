@@ -7,28 +7,28 @@ type Step = {
 
 const steps: Step[] = [
   {
-    title: "Configurez",
-    text: "Définissez vos objectifs et votre zone de chalandise.",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuD3c43jXsgNfNLt036w6SEn8uUTblx_iqp7xS6vKiwYWfOxCXDi4zVeg9V44jTB_WoJXBmLUJgprE0Sn3HCUaWtWrNZ5WzmUqXHZ8n2NFmeJcNKYGs1qeTDxKacky1lIPVzoofAwlRXbj_3LyPL3fFCNRihRPGGL8DAQqtWYLmzaKBjUTfGjFkaDo8fzfTLY3cwYnDCXP0EU_E_qjBoPTPU88KvZHcx-LK6UQf-atgqacpZ-rTSgVlyq3an2rj4dySQXX79KRwF1KM",
-    alt: "Icône 3D d'un mégaphone en bleu nuit et jaune",
+    title: "Embarquez",
+    text: "Connectez votre véhicule à l'app PUBleader en quelques minutes.",
+    img: "/i1.png",
+    alt: "Icône 3D d'un smartphone affichant une voiture",
   },
   {
-    title: "Créez",
-    text: "Importez vos visuels ou utilisez nos services créatifs.",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAQZMnR5y-cVh6E9rWu8rf0UXOnH6-mVcjjeLhZ4PDOhQmtNrnehHuBqF52Y3umnlfcRP1L7EFfEc7UnlOYYanlLVa-vnowYWbTDMrKMWkDJGwIQo25TtSFd68IRICr9sH-GUtkjNkPl8Jtvawqb7UTVzf28GUwzd51O53EaAWvbfTB9fr7BRH9GZZJYT8ZQwEPedCSzhSoUYS5ebNwYN9X9jDSHLgEFT7H0xcqi1b9NdGdkWRKbm0SFFtNvsiONKwniZNETIzTrMc",
-    alt: "Icône 3D d'une palette créative en bleu nuit et jaune",
+    title: "Gagnez",
+    text: "Chaque course active génère des revenus directement sur votre compte.",
+    img: "/i2.png",
+    alt: "Icône 3D d'un portefeuille avec des pièces de monnaie",
   },
   {
-    title: "Lancez",
-    text: "Votre campagne part sur les routes en 48h chrono.",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCHP7n5yiKDgIeD-dROi-PmMFKwFIhS22gc555lD2V345kqw0WMrb4iVhcat7W_hY_I7KD-YtmWin8q5z8NradCQJnnUUSQdQQfZtoaRKsa57hEm_KpN11zDtM1EXMJFdTRzRIZLwifbcxpVs6Wqhyq5RcRjdl3xH-pziN6rtgC0GswD2divscUyOEGbRHnBMdBAJHTYkEAx-qlXWO-GRdUyvMDu71M0YIagC7NGZr2SOpAZR0kq9apOQ1RGQxO75AqyW3vntRXACg",
-    alt: "Icône 3D d'un véhicule en mouvement en bleu nuit et jaune",
+    title: "Géolocalisez",
+    text: "Vos campagnes sont suivies en temps réel, zone par zone.",
+    img: "/i3.png",
+    alt: "Icône 3D d'une carte avec une voiture géolocalisée",
   },
   {
-    title: "Analysez",
-    text: "Suivez vos performances en temps réel sur l'app.",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDkvsbm10zY2eCoIoA-CWy9X5T9nE4vO5TSsjnaNZDy5apr1HPbmeYfLqZipjFXohX1klOJZxhlLZKWr7AL3WuwvqrR7AqMwm_6ATIZVmgKCb2C3HeEZYsVeXW1rGPDpR8XAw_z6N9r3ajsPz_LHgCGK2rm54chNZRq_PfmjRyJXgx9JhBRiwbJfiFLpqxWaBqZEpdYuyXTADxa_qdUeZXSs5T8IhqHuXVbMJUEXnGfZl6tl01KLcaR0ClVny0-Eqh0W3vn5kLczxk",
-    alt: "Icône 3D d'un tableau de bord analytique en bleu nuit et jaune",
+    title: "Communauté",
+    text: "Rejoignez le réseau des chauffeurs VTC et Uber PUBleader.",
+    img: "/i4.png",
+    alt: "Icône 3D d'un groupe de chauffeurs avec un volant",
   },
 ];
 
@@ -36,18 +36,23 @@ export default function HowItWorks() {
   return (
     <section className="py-20 sm:py-32 bg-surface" id="timeline">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-headline text-primary text-center mb-16 sm:mb-24">
-          Comment ça marche ?
-        </h2>
+        <div className="text-center mb-16 sm:mb-24 max-w-3xl mx-auto">
+          <span className="text-secondary font-bold tracking-[0.2em] uppercase text-sm mb-4 block">
+            L&apos;expérience chauffeur
+          </span>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-headline text-primary">
+            Tout se passe dans l&apos;app
+          </h2>
+        </div>
         <div className="relative">
-          <div className="hidden lg:block absolute top-10 left-0 w-full h-1 bg-surface-container-highest z-0"></div>
+          <div className="hidden lg:block absolute top-16 left-0 w-full h-1 bg-surface-container-highest z-0"></div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-12 relative z-10">
             {steps.map((step) => (
               <div key={step.title} className="text-center group">
-                <div className="w-20 h-20 rounded-full border-4 border-surface shadow-xl overflow-hidden mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 bg-surface-container-lowest">
+                <div className="w-32 h-32 mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 flex items-center justify-center">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain drop-shadow-[0_10px_20px_rgba(3,21,67,0.15)]"
                     alt={step.alt}
                     src={step.img}
                   />
@@ -61,6 +66,20 @@ export default function HowItWorks() {
               </div>
             ))}
           </div>
+        </div>
+        <div className="mt-16 sm:mt-20 flex flex-wrap justify-center gap-3 sm:gap-4">
+          <a
+            href="#app"
+            className="inline-block bg-primary text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold text-base sm:text-lg shadow-lg hover:bg-primary-container transition-all"
+          >
+            Découvrir l&apos;application
+          </a>
+          <a
+            href="#pricing"
+            className="inline-block bg-white border border-primary/20 text-primary px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold text-base sm:text-lg hover:bg-surface-container-low transition-all"
+          >
+            Voir les tarifs
+          </a>
         </div>
       </div>
     </section>

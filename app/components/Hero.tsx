@@ -1,46 +1,26 @@
-import Image from "next/image";
-
 export default function Hero() {
   return (
-    <section className="relative pt-28 sm:pt-32 pb-12 sm:pb-20 overflow-hidden bg-primary">
-      {/* Mobile: image stacked above */}
-      <div className="relative md:hidden w-full aspect-[4/3] mb-8">
-        <Image
-          src="/hero.png"
-          alt="Véhicule de flotte urbaine premium avec branding publicitaire"
-          fill
-          priority
-          quality={100}
-          sizes="100vw"
-          className="object-cover object-center"
-        />
-        <div className="absolute inset-0 bg-linear-to-b from-transparent via-primary/10 to-primary"></div>
-      </div>
+    <section className="relative pt-28 sm:pt-32 pb-16 sm:pb-24 overflow-hidden bg-primary">
+      <div
+        aria-hidden="true"
+        className="absolute -top-40 -right-40 w-[600px] h-[600px] bg-secondary-fixed/10 rounded-full blur-3xl"
+      />
+      <div
+        aria-hidden="true"
+        className="absolute -bottom-40 -left-40 w-[500px] h-[500px] bg-primary-container/40 rounded-full blur-3xl"
+      />
 
-      {/* Desktop/tablet: image full-bleed background */}
-      <div className="hidden md:block absolute inset-0 z-0 overflow-hidden">
-        <Image
-          src="/a.png"
-          alt="Véhicule de flotte urbaine premium avec branding publicitaire"
-          fill
-          priority
-          quality={100}
-          sizes="100vw"
-          className="object-cover object-right"
-        />
-        <div className="absolute inset-0 bg-linear-to-r from-primary/60 via-primary/20 to-transparent"></div>
-      </div>
-
-      <div className="md:min-h-screen md:flex md:items-end md:pb-16">
-        <div className="relative z-10 max-w-7xl w-full mx-auto px-5 sm:px-6">
-          <div className="text-white max-w-2xl md:[text-shadow:0_2px_16px_rgb(3_21_67/80%)]">
+      <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-6">
+        <div className="grid grid-cols-1 lg:grid-cols-[5fr_7fr] gap-10 lg:gap-12 items-center">
+          <div className="text-white order-2 lg:order-1">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-headline font-extrabold leading-[1.1] tracking-tight mb-4 sm:mb-5">
               La publicité <br />
               <span className="text-secondary-fixed">sans freiner.</span>
             </h1>
-            <p className="text-base sm:text-base text-primary-fixed mb-6 sm:mb-8 max-w-xl leading-relaxed font-body font-medium">
-              Transformez chaque kilomètre en opportunité. PUBleader connecte les
-              marques aux flottes urbaines pour une visibilité inégalée.
+            <p className="text-base sm:text-lg text-primary-fixed mb-6 sm:mb-8 max-w-xl leading-relaxed font-body font-medium">
+              +120 marques diffusent déjà sur notre réseau de chauffeurs Uber et
+              VTC. Lancez votre campagne en 48h, payez à l&apos;impression
+              réelle, suivez tout depuis l&apos;application.
             </p>
             <div className="flex flex-wrap gap-3 sm:gap-4">
               <a
@@ -55,6 +35,25 @@ export default function Hero() {
               >
                 Voir nos solutions
               </a>
+            </div>
+          </div>
+
+          <div className="order-1 lg:order-2">
+            <div className="relative">
+              <div
+                aria-hidden="true"
+                className="absolute -inset-4 sm:-inset-6 bg-secondary-fixed/15 blur-2xl rounded-[2.5rem]"
+              />
+              <div className="relative rounded-[1.75rem] sm:rounded-[2rem] overflow-hidden shadow-2xl ring-1 ring-white/10 aspect-[4/3] lg:aspect-[5/4] bg-primary-container">
+                <video
+                  src="/video.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="absolute inset-0 w-full h-full object-contain"
+                />
+              </div>
             </div>
           </div>
         </div>
