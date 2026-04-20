@@ -44,10 +44,7 @@ export default function LeaderBorne() {
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0AaKxlRCWe_3ycCBlsIBWB9W6I9z6Z9ns7d4hZ60-4YKLDLr0zD29yg5v8Yd9s9FZitgoe3yCnpUsKu2nLpZx-CLXPuuLMpgkWfB_XMfGgkWKiA1Ax6bP6B9nyvgohG7EV3rV5hCUMUH59JArgt0bLUTOLGSso6OcPYTfPJbsFSu5ioyTixquy8aVGkZbWOw20jb0lcGa7kMyvykuzWHfAvLC0Sd8q1ylD9TCybsc6_xYf3RC3jTM2u8zTNFYJNeP-nGUOkBCiUY"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 bg-secondary-fixed p-8 rounded-xl shadow-xl hidden lg:block">
-              <div className="text-4xl font-black text-primary">New</div>
-              <div className="text-primary font-bold">Innovation 2024</div>
-            </div>
+        
           </div>
         </div>
       </div>
