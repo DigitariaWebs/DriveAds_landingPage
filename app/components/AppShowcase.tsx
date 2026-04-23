@@ -62,7 +62,7 @@ export default function AppShowcase() {
               L&apos;application
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-headline mb-6 sm:mb-8 leading-tight">
-              La régie <br />
+              La plateforme <br />
               <span className="text-secondary-fixed">dans la poche.</span>
             </h2>
             <p className="text-base sm:text-lg text-primary-fixed mb-8 sm:mb-10 leading-relaxed">

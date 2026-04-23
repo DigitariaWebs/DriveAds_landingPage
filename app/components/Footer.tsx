@@ -13,7 +13,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-slate-500 text-sm leading-relaxed mb-8">
-              La première régie publicitaire dynamique sur véhicules motorisés.
+              La première plateforme publicitaire dynamique sur véhicules motorisés.
               Innovons ensemble pour la ville de demain.
             </p>
             <div className="flex space-x-4">
