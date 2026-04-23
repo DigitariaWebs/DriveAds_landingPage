@@ -5,8 +5,8 @@
   --font-body: var(--font-body-raw);
   --font-label: var(--font-body-raw);
 
-  --color-primary: #031543;
-  --color-primary-container: #1b2b58;
+  --color-primary: #0b132b;
+  --color-primary-container: #1c2541;
   --color-primary-fixed: #dbe1ff;
   --color-primary-fixed-dim: #b6c5fb;
   --color-on-primary: #ffffff;
@@ -15,14 +15,14 @@
   --color-on-primary-fixed-variant: #364573;
   --color-inverse-primary: #b6c5fb;
 
-  --color-secondary: #4e5d8c;
+  --color-secondary: #3a506b;
   --color-secondary-container: #dbe1ff;
   --color-secondary-fixed: #b6c5fb;
   --color-secondary-fixed-dim: #8493c7;
   --color-on-secondary: #ffffff;
   --color-on-secondary-container: #051845;
-  --color-on-secondary-fixed: #031543;
-  --color-on-secondary-fixed-variant: #1b2b58;
+  --color-on-secondary-fixed: #0b132b;
+  --color-on-secondary-fixed-variant: #1c2541;
 
   --color-tertiary: #191919;
   --color-tertiary-container: #2e2d2d;
@@ -37,7 +37,7 @@
   --color-on-background: #1c1b1b;
 
   --color-surface: #fcf8f8;
-  --color-surface-tint: #4e5d8c;
+  --color-surface-tint: #3a506b;
   --color-surface-bright: #fcf8f8;
   --color-surface-dim: #dcd9d9;
   --color-surface-variant: #e5e2e1;
@@ -103,7 +103,16 @@ body {
 }
 
 .bg-hero-gradient {
-  background: linear-gradient(135deg, #1b2b58 0%, #031543 100%);
+  background:
+    radial-gradient(circle at 70% 80%, rgba(140, 160, 220, 0.25), transparent 40%),
+    linear-gradient(
+      120deg,
+      #0a0f2a 0%,
+      #0f1a3d 25%,
+      #1b2a57 50%,
+      #2e3f73 75%,
+      #4a5c8f 100%
+    );
 }
 
 @keyframes float-slow {

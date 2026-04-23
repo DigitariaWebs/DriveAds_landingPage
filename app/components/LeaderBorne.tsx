@@ -6,34 +6,43 @@ export default function LeaderBorne() {
           <div>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-headline text-primary mb-6 sm:mb-8">
               Leader Borne : <br />
-              <span className="text-secondary">L&apos;Innovation</span>
+              <span className="text-secondary">Nouvelle expérience, nouveaux revenus</span>
             </h2>
             <p className="text-base sm:text-lg text-on-surface-variant mb-8 sm:mb-10 leading-relaxed">
-              En complément de la flotte de chauffeurs, la Leader Borne prend
-              le relais aux points chauds : gares, terminaux, aires de
-              stationnement VTC. Même écosystème, pilotée depuis la même app.
+              Transformez vos espaces en expérience sensorielle rentable grâce
+              à la Leader Borne : parfums de luxe, écran LED publicitaire
+              intégré et paiement CB rapide dans un format moderne et élégant.
             </p>
             <div className="grid grid-cols-2 gap-8 mb-10">
               <div>
                 <span className="material-symbols-outlined text-primary text-3xl mb-2">
                   lightbulb
                 </span>
-                <h5 className="font-bold text-primary">LED Advertising</h5>
+                <h5 className="font-bold text-primary">Expérience premium</h5>
                 <p className="text-sm text-on-surface-variant">
-                  Haute luminosité pour un impact maximal de jour comme de nuit.
+                  L&apos;écran LED diffuse vos promotions pendant que la borne
+                  valorise l&apos;image de vos halls, vestiaires et espaces communs.
                 </p>
               </div>
               <div>
                 <span className="material-symbols-outlined text-primary text-3xl mb-2">
                   sync
                 </span>
-                <h5 className="font-bold text-primary">Synchro App</h5>
+                <h5 className="font-bold text-primary">Revenus passifs</h5>
                 <p className="text-sm text-on-surface-variant">
-                  Mêmes campagnes, mêmes stats : la borne suit le flux de
-                  l&apos;application.
+                  Jusqu&apos;à 50 sprays estimés par jour, 1EUR par utilisation,
+                  pour une nouvelle source de revenus potentiellement illimitée.
                 </p>
               </div>
             </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10 text-sm text-on-surface-variant">
+              <p>Installation rapide, gestion complète et partage des revenus.</p>
+              <p>Taille : 1,80 m, poids : 110 kg, matériaux : métal.</p>
+            </div>
+            <p className="text-sm sm:text-base text-on-surface-variant leading-relaxed">
+              Une solution clé en main pour moderniser vos espaces, fidéliser
+              votre clientèle et créer des revenus mensuels complémentaires.
+            </p>
           </div>
           <div className="relative">
             <div className="bg-primary p-1 rounded-2xl shadow-2xl">
@@ -41,7 +50,7 @@ export default function LeaderBorne() {
               <img
                 className="w-full h-96 sm:h-150 object-cover rounded-xl"
                 alt="Borne digitale PUBleader avec grand écran LED vertical diffusant une campagne"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0AaKxlRCWe_3ycCBlsIBWB9W6I9z6Z9ns7d4hZ60-4YKLDLr0zD29yg5v8Yd9s9FZitgoe3yCnpUsKu2nLpZx-CLXPuuLMpgkWfB_XMfGgkWKiA1Ax6bP6B9nyvgohG7EV3rV5hCUMUH59JArgt0bLUTOLGSso6OcPYTfPJbsFSu5ioyTixquy8aVGkZbWOw20jb0lcGa7kMyvykuzWHfAvLC0Sd8q1ylD9TCybsc6_xYf3RC3jTM2u8zTNFYJNeP-nGUOkBCiUY"
+                src="/borne.png"
               />
             </div>
         

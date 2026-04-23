@@ -8,28 +8,30 @@ type Plan = {
 const plans: Plan[] = [
   {
     name: "Boost",
-    price: "299€",
-    features: ["5 véhicules actifs", "Secteur local (10km)", "Rapport mensuel"],
+    price: "1 250€ HT*",
+    features: [
+      "5 véhicules",
+      "Lancer votre visibilité",
+      "Attirez vos premiers prospects.",
+    ],
   },
   {
     name: "Growth",
-    price: "599€",
+    price: "2 000€ HT*",
     features: [
-      "15 véhicules actifs",
-      "Secteur régional",
-      "App monitoring 24/7",
-      "Modifications illimitées",
+      "8 véhicules",
+      "Visibilité massive",
+      "dans la ville.",
     ],
     featured: true,
   },
   {
     name: "Leader",
-    price: "999€",
+    price: "Sur devis HT*",
     features: [
-      "50+ véhicules actifs",
-      "Couverture Nationale",
-      "Manager de compte dédié",
-      "Priorité Creative Lab",
+      "A partir de 12 véhicules",
+      "Domination publicitaire",
+      "dans toute la ville.",
     ],
   },
 ];
@@ -40,7 +42,7 @@ function PlanCard({ plan }: { plan: Plan }) {
       <div className="bg-primary p-8 sm:p-10 rounded-xl shadow-2xl flex flex-col items-start text-left relative overflow-hidden md:scale-105 z-10">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/logo-v2.png"
+          src="/logo.png"
           alt=""
           aria-hidden="true"
           className="pointer-events-none select-none absolute -left-8 -bottom-8 w-40 opacity-[0.08] rotate-12"
@@ -55,7 +57,6 @@ function PlanCard({ plan }: { plan: Plan }) {
           <span className="text-4xl font-extrabold text-white">
             {plan.price}
           </span>
-          <span className="text-primary-fixed ml-2">/mois</span>
         </div>
         <ul className="space-y-4 mb-10 grow">
           {plan.features.map((f) => (
@@ -83,7 +84,6 @@ function PlanCard({ plan }: { plan: Plan }) {
         <span className="text-4xl font-extrabold text-primary">
           {plan.price}
         </span>
-        <span className="text-on-surface-variant ml-2">/mois</span>
       </div>
       <ul className="space-y-4 mb-10 grow">
         {plan.features.map((f) => (
@@ -110,7 +110,7 @@ export default function Pricing() {
     <section className="relative py-20 sm:py-32 bg-surface overflow-hidden" id="pricing">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/logo-v2.png"
+        src="/logo.png"
         alt=""
         aria-hidden="true"
         className="pointer-events-none select-none absolute top-1/3 -left-20 w-72 opacity-[0.04] -rotate-6"

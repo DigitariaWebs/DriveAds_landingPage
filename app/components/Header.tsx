@@ -17,15 +17,15 @@ export default function Header() {
     <header className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-xl shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 h-24 sm:h-28 flex items-center justify-between">
         <a href="#" aria-label="PUBleader" className="flex items-center">
-          <div className="relative h-16 w-20 sm:h-20 sm:w-24 overflow-hidden">
+          <div className="relative h-20 w-28 sm:h-24 sm:w-32 overflow-hidden">
             <Image
-              src="/logo-v2.png"
+              src="/logo.png"
               alt="PUBleader"
               fill
               priority
               quality={100}
-              sizes="(max-width: 640px) 80px, 96px"
-              className="object-cover object-center scale-[1.4]"
+              sizes="(max-width: 640px) 112px, 128px"
+              className="object-contain object-center"
             />
           </div>
         </a>
@@ -34,7 +34,7 @@ export default function Header() {
           {navLinks.map((link) => (
             <a
               key={link.href}
-              className="text-slate-800 font-extrabold hover:text-[#1B2B58] transition-colors duration-300"
+              className="text-slate-800 font-extrabold hover:text-[#3A506B] transition-colors duration-300"
               href={link.href}
             >
               {link.label}
@@ -45,7 +45,7 @@ export default function Header() {
         <div className="flex items-center space-x-2 sm:space-x-4">
           <a
             href="#pricing"
-            className="hidden md:block text-[#1B2B58] font-extrabold hover:text-primary-container transition-all"
+            className="hidden md:block text-[#3A506B] font-extrabold hover:text-primary-container transition-all"
           >
             Se connecter
           </a>
@@ -59,7 +59,7 @@ export default function Header() {
             aria-label="Menu"
             aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
-            className="md:hidden w-10 h-10 flex items-center justify-center text-[#1B2B58]"
+            className="md:hidden w-10 h-10 flex items-center justify-center text-[#3A506B]"
           >
             <span className="material-symbols-outlined">
               {open ? "close" : "menu"}
@@ -76,7 +76,7 @@ export default function Header() {
                 <a
                   href={link.href}
                   onClick={() => setOpen(false)}
-                  className="block py-3 px-2 text-slate-800 font-extrabold hover:text-[#1B2B58] hover:bg-slate-50 rounded font-label"
+                  className="block py-3 px-2 text-slate-800 font-extrabold hover:text-[#3A506B] hover:bg-slate-50 rounded font-label"
                 >
                   {link.label}
                 </a>
@@ -86,7 +86,7 @@ export default function Header() {
               <a
                 href="#pricing"
                 onClick={() => setOpen(false)}
-                className="block py-3 px-2 text-[#1B2B58] font-extrabold"
+                className="block py-3 px-2 text-[#3A506B] font-extrabold"
               >
                 Se connecter
               </a>

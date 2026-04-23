@@ -4,12 +4,12 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-14 sm:py-20">
         <div className="flex flex-col md:flex-row justify-between mb-12 sm:mb-16 gap-12 md:gap-8">
           <div className="max-w-xs">
-            <div className="mb-6 relative h-24 w-28 overflow-hidden">
+            <div className="mb-6 relative h-28 w-36 overflow-hidden">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/logo-v2.png"
+                src="/logo.png"
                 alt="PUBleader"
-                className="absolute inset-0 w-full h-full object-cover object-center scale-[1.4]"
+                className="absolute inset-0 w-full h-full object-contain object-center"
               />
             </div>
             <p className="text-slate-500 text-sm leading-relaxed mb-8">
@@ -48,7 +48,7 @@ export default function Footer() {
               <ul className="space-y-4">
                 <li>
                   <a
-                    className="text-slate-500 hover:text-[#1B2B58] transition-all text-sm"
+                    className="text-slate-500 hover:text-[#3A506B] transition-all text-sm"
                     href="#"
                   >
                     Politique de confidentialité
@@ -56,7 +56,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    className="text-slate-500 hover:text-[#1B2B58] transition-all text-sm"
+                    className="text-slate-500 hover:text-[#3A506B] transition-all text-sm"
                     href="#"
                   >
                     Conditions générales
@@ -64,7 +64,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    className="text-slate-500 hover:text-[#1B2B58] transition-all text-sm"
+                    className="text-slate-500 hover:text-[#3A506B] transition-all text-sm"
                     href="#"
                   >
                     Contact
@@ -72,7 +72,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    className="text-slate-500 hover:text-[#1B2B58] transition-all text-sm"
+                    className="text-slate-500 hover:text-[#3A506B] transition-all text-sm"
                     href="#"
                   >
                     Recrutement

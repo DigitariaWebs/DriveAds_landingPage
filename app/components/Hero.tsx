@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative pt-28 sm:pt-32 pb-16 sm:pb-24 overflow-hidden bg-primary">
+    <section className="relative pt-28 sm:pt-32 pb-16 sm:pb-24 overflow-hidden bg-hero-gradient">
       <div
         aria-hidden="true"
         className="absolute -top-40 -right-40 w-[600px] h-[600px] bg-secondary-fixed/10 rounded-full blur-3xl"

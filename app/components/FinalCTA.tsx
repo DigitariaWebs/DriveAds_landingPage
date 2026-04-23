@@ -12,25 +12,25 @@ export default function FinalCTA() {
         </div>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/logo-v2.png"
+          src="/logo.png"
           alt=""
           aria-hidden="true"
           className="pointer-events-none select-none absolute -top-10 -left-10 w-48 opacity-10 -rotate-12"
         />
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/logo-v2.png"
+          src="/logo.png"
           alt=""
           aria-hidden="true"
           className="pointer-events-none select-none absolute -bottom-12 -right-12 w-56 opacity-10 rotate-12"
         />
         <div className="relative z-10">
-          <div className="mx-auto relative w-28 h-24 mb-6 overflow-hidden drop-shadow-[0_6px_20px_rgba(182,197,251,0.45)]">
+          <div className="mx-auto relative w-40 h-32 mb-6 overflow-hidden drop-shadow-[0_6px_20px_rgba(182,197,251,0.45)]">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/logo-v2.png"
+              src="/logo.png"
               alt="PUBleader"
-              className="absolute inset-0 w-full h-full object-cover object-center scale-[1.4]"
+              className="absolute inset-0 w-full h-full object-contain object-center"
             />
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-headline text-white mb-8 sm:mb-10 leading-tight">

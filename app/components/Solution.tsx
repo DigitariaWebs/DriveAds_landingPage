@@ -3,7 +3,7 @@ export default function Solution() {
     <section className="relative py-20 sm:py-32 bg-surface-container overflow-hidden" id="solutions">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/logo-v2.png"
+        src="/logo.png"
         alt=""
         aria-hidden="true"
         className="pointer-events-none select-none absolute top-10 right-[-4rem] w-72 opacity-[0.05] rotate-6"
@@ -22,7 +22,7 @@ export default function Solution() {
               <div className="absolute bottom-4 right-4 sm:bottom-10 sm:-right-5 bg-primary p-4 sm:p-6 rounded-xl shadow-xl max-w-50 sm:max-w-60 overflow-hidden">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/logo-v2.png"
+                  src="/logo.png"
                   alt=""
                   aria-hidden="true"
                   className="pointer-events-none select-none absolute -right-3 -bottom-3 w-16 opacity-15"
