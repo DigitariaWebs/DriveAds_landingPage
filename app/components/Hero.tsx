@@ -46,7 +46,7 @@ export default function Hero() {
               />
               <div className="relative rounded-[1.75rem] sm:rounded-[2rem] overflow-hidden shadow-2xl ring-1 ring-white/10 aspect-[4/3] lg:aspect-[5/4] bg-primary-container">
                 <video
-                  src="/video.mp4"
+                  src="/video.MP4"
                   autoPlay
                   loop
                   muted
