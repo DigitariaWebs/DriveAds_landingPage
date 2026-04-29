@@ -27,7 +27,7 @@ export default function LeaderBorne() {
                 <p className="text-xs uppercase tracking-wide text-on-surface-variant mb-1">
                   Tarif
                 </p>
-                <p className="text-lg font-extrabold text-primary">1EUR / utilisation</p>
+                <p className="text-lg font-extrabold text-primary">1€ HT* / utilisation</p>
               </div>
               <div className="bg-white border border-outline-variant/30 rounded-xl p-4">
                 <p className="text-xs uppercase tracking-wide text-on-surface-variant mb-1">
@@ -59,15 +59,22 @@ export default function LeaderBorne() {
             <p className="text-sm sm:text-base text-on-surface-variant leading-relaxed mb-3">
               Format technique : hauteur 1,80m, poids 110kg, structure métal.
             </p>
-            <p className="text-sm sm:text-base text-on-surface-variant leading-relaxed">
+            <p className="text-sm sm:text-base text-on-surface-variant leading-relaxed mb-8">
               Idéale pour halls d&apos;accueil, vestiaires et espaces communs.
             </p>
+            <a
+              href="#contact"
+              className="inline-flex items-center gap-2 bg-primary text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold text-base sm:text-lg shadow-lg hover:bg-primary-container transition-all"
+            >
+              <span className="material-symbols-outlined text-xl">mail</span>
+              Contactez-nous pour votre Leader Borne
+            </a>
           </div>
           <div className="relative">
             <div className="bg-primary p-1 rounded-2xl shadow-2xl">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                className="w-full h-96 sm:h-150 object-cover rounded-xl"
+                className="w-full h-96 sm:h-150 object-cover object-top rounded-xl"
                 alt="Borne digitale PUBleader avec grand écran LED vertical diffusant une campagne"
                 src="/borne.png"
               />
