@@ -44,10 +44,10 @@ export default function Header() {
 
         <div className="flex items-center space-x-2 sm:space-x-4">
           <a
-            href="#pricing"
+            href="#contact"
             className="hidden md:block text-[#3A506B] font-extrabold hover:text-primary-container transition-all"
           >
-            Se connecter
+            Contactez-nous
           </a>
           <a
             href="#pricing"
@@ -84,11 +84,11 @@ export default function Header() {
             ))}
             <li>
               <a
-                href="#pricing"
+                href="#contact"
                 onClick={() => setOpen(false)}
                 className="block py-3 px-2 text-[#3A506B] font-extrabold"
               >
-                Se connecter
+                Contactez-nous
               </a>
             </li>
           </ul>
